@@ -2,6 +2,7 @@
 
 import { NormalizedReview } from "@/app/api/reviews/hostaway/route"
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect, use } from "react"
 
 // Helper to convert "2B N1 A..." to "2b-n1-a..."
@@ -144,7 +145,7 @@ export default function PropertyPage({ params }: { params: Promise<{ id: string 
                                             <p className="text-gray-600 leading-relaxed">{review.comment}</p>
                                             {review.source === "Google Reviews" && (
                                                 <div className="mt-4 flex items-center gap-1 text-xs text-gray-400">
-                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Google" className="w-4 h-4" />
+                                                    <Image src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Google" width={16} height={16} />
                                                     Posted on Google
                                                 </div>
                                             )}
