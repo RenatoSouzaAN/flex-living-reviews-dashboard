@@ -2,6 +2,8 @@
 
 A comprehensive reviews management system for Flex Living properties, built for property managers to oversee, filter, and curate guest reviews from multiple channels.
 
+**🔗 Live Demo**: [https://flex-living-reviews-dashboard-five.vercel.app/](https://flex-living-reviews-dashboard-five.vercel.app/)
+
 ## 🚀 Tech Stack
 
 - **Framework**: Next.js 14 (App Router)
